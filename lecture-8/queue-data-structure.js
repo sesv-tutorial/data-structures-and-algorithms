@@ -48,7 +48,7 @@ queue.print() // [ 1, 2, 3 ]
 console.log(queue.dequeue()) // 1
 queue.print() // [ 2, 3 ]
 
-// peak
+// peek
 console.log(queue.peek()) // 2
 
 // size
