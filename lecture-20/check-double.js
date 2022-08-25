@@ -32,7 +32,7 @@ const checkDouble = (arr) => {
   }
   
   return result
-};
+}
 
 // Time complexity: Binary Search nested in For Loop
 // -> Time: O(nlogn)
