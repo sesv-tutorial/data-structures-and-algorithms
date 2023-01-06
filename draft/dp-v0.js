@@ -138,15 +138,22 @@ const knapsackDp = (items, maxWeight) => {
 }
 
 
-const items = {
-  '1': { num: 1, weight : 5, value: 60 },
-  '2': { num: 2, weight : 3, value: 50 },
-  '3': { num: 3, weight : 4, value: 70 },
-  '4': { num: 4, weight : 2, value: 30 },
-}
-const maxWeight = 10
+// const items = {
+//   '1': { num: 1, weight : 5, value: 60 },
+//   '2': { num: 2, weight : 3, value: 50 },
+//   '3': { num: 3, weight : 4, value: 70 },
+//   '4': { num: 4, weight : 2, value: 30 },
+// }
 
-// console.log('max value:', knapsackDp(items, maxWeight))
+const items = {
+  '1': { num: 1, weight : 2, value: 1 },
+  '2': { num: 2, weight : 3, value: 2 },
+  '3': { num: 3, weight : 4, value: 5 },
+  '4': { num: 4, weight : 5, value: 6 },
+}
+const maxWeight = 8
+
+console.log('max value:', knapsackDp(items, maxWeight))
 
 //===================================================================================
 
@@ -573,7 +580,7 @@ const makeTableInput = {
   tableHeightNum: 2, // table height count
 }
 
-console.log('max value:', maxNumTableDp(makeTableInput))
+// console.log('max value:', maxNumTableDp(makeTableInput))
 
 
 /**
