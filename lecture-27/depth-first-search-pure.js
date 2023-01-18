@@ -47,4 +47,4 @@ const depthFirstSearchPure = (initNodeIdx) => {
   }
 }
 
-depthFirstSearchPure(2) // result: [ 'SFO', 'DEN', 'IAH', 'JFK', 'ORD' ]
+depthFirstSearchPure(0) // result: [ 'SFO', 'DEN', 'IAH', 'JFK', 'ORD' ]
